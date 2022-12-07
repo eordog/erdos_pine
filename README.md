@@ -27,7 +27,6 @@ Results
 Our best model was the third XGBoost model with Protein Transformer ESM and principal component analysys (PCA).
 We found the normalized RMSE to be 0.06 and the Pearson R to be 0.81. 
 
-One interesting observation was in the test proteins with a true TM around 20-30 C. We graphed the distribution of the enzyme sizes on the right graph. Here we see that normally proteins in this range are supposed to be 100-300 AA in size, but in the test set they were a lot bigger (300-1000 AA). This indicates that our model is not well-optimized to handle smaller/lower melting temperature proteins. 
 
 
 
